@@ -1,0 +1,6 @@
+version: '3'
+services:
+  flag-extractor:
+    image: ghcr.io/danielkorik/excellenteam-ctf-danielkorik:latest
+    container_name: flag-container
+    restart: unless-stopped
